@@ -17,8 +17,19 @@ The Centers for Disease Control and Prevention (CDC) reports a 52.2% increase in
 - **Size**: 17,232 respondents, 109 survey questions  
 - **Target Variable**: Binary response to "During the past 12 months, did you ever seriously consider attempting suicide?"  
 - **Features**: Demographic, behavioral, and emotional indicators.
+## ### Data Mapping from Raw Dataset
 
-### Data Preprocessing
+The raw dataset provided by the YRBSS consisted solely of numeric values representing survey question numbers and encoded answer choices selected by respondents. These numeric representations required mapping to their corresponding survey questions and response options to make the dataset interpretable and suitable for data analysis.
+
+To achieve this, we referred to the **YRBSS Data User Guide**, specifically **Appendix A**, which contains detailed mappings of question numbers and encoded responses to their actual questions and values. Using a custom Python script, we systematically transformed the raw data into a human-readable and structured format by:
+
+1. **Extracting Question Mappings**: Mapping question numbers to their respective textual descriptions.  
+2. **Decoding Responses**: Translating encoded response options into their corresponding values based on the guide.  
+3. **Creating a Unified Dataset**: Integrating the mappings into the raw dataset to produce a well-structured dataframe ready for analysis.
+
+This transformation step was essential to unlock the dataset's full potential, enabling meaningful exploratory data analysis, hypothesis testing, and predictive modeling.
+
+### Data Preprocessing and Exploratory Data Analysis (EDA)
 1. **Handling Missing Data**:  
    - Columns with >40% missing values were excluded.  
    - KNN-based imputation for continuous features (e.g., height, weight).  
@@ -96,6 +107,11 @@ We employed statistical and machine learning techniques to uncover insights and 
 - Ensuring models generalize effectively across diverse populations.
 
 ---
+
+## File Structure
+
+- **`YRBS_Data_Mapping_and_Preprocessing.ipynb`**: This notebook focuses on mapping raw survey data into a structured format and performing necessary data preprocessing steps.  
+- **`YRBS_EDA_and_Modeling.ipynb`**: This notebook covers Exploratory Data Analysis (EDA) and the development of predictive models for the project.  
 
 ## Acknowledgments
 This project was guided by Dr. Taehee Jeong and supported by San Jose State University's Applied Data Science Department.
