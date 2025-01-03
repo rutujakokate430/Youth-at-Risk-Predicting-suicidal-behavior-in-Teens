@@ -79,7 +79,6 @@ We employed statistical and machine learning techniques to uncover insights and 
 - Creation of "Risk score“ using predicted probabilities is ideal for quantifying and bucketing an individual's suicide risk.
 - Successfully identified key factors influencing suicidal tendencies which are valuable for identifying early indicators of suicidal risk.
 - Uniqueness: Our model identifies respondents' risk profiles, allowing teachers, counselors, and authorities to intervene proactively with high-risk respondents to prevent unfortunate events.
-![image](https://github.com/user-attachments/assets/d1eb3333-cbb0-4d23-a453-deb7be849e64)
 
 ## Practical Applications
 - **Risk Scoring**:  
