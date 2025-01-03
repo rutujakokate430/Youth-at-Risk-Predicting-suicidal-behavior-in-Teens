@@ -20,6 +20,7 @@ The Centers for Disease Control and Prevention (CDC) reports a 52.2% increase in
 ## Data Mapping from Raw Dataset
 
 The raw dataset provided by the YRBSS consisted solely of numeric values representing survey question numbers and encoded answer choices selected by respondents. These numeric representations required mapping to their corresponding survey questions and response options to make the dataset interpretable and suitable for data analysis.
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/c1133bf3-6e9a-4dc0-a29e-c18ea7d8acaf" />
 
 To achieve this, we referred to the **YRBSS Data User Guide**, specifically **Appendix A**, which contains detailed mappings of question numbers and encoded responses to their actual questions and values. Using a custom Python script, we systematically transformed the raw data into a human-readable and structured format by:
 
