@@ -3,6 +3,8 @@
 ## Overview
 Youth suicidality is a pressing public health concern, with alarming increases in suicidal thoughts and behaviors among teenagers over the past decade. Our project aims to provide actionable insights into identifying at-risk youths using advanced data mining and machine learning techniques. By leveraging the **Youth Risk Behavior Surveillance System (YRBSS)** 2021 dataset, this project highlights key behavioral, demographic, and emotional indicators of suicide risk to aid early intervention strategies.
 
+<img width="242" alt="image" src="https://github.com/user-attachments/assets/f71b0888-8cdc-486a-b985-7d6e7399d9f3" />
+
 ---
 
 ## Motivation
