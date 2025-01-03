@@ -36,6 +36,9 @@ The Centers for Disease Control and Prevention (CDC) reports a 52.2% increase in
 ## Methodology
 We employed statistical and machine learning techniques to uncover insights and build predictive models:
 
+<img width="510" alt="image" src="https://github.com/user-attachments/assets/0afdb8d6-77e4-4793-8044-61b4875bb931" />
+
+
 1. **Statistical Analysis**:  
    - **T-tests** for continuous variables (e.g., height, weight, BMI) showed significant differences linked to suicidality.  
    - **Chi-square tests** for categorical variables quantified relationships between features (e.g., gender, race) and the target variable.  
@@ -49,6 +52,8 @@ We employed statistical and machine learning techniques to uncover insights and 
 3. **Feature Importance**:  
    - Emotional indicators such as "Felt Sad or Hopeless" emerged as the strongest predictors.  
    - Social factors (e.g., bullying, sexual identity) also played significant roles.
+     
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/02df98a8-4d45-4e97-b009-0aeebec4a923" />
 
 ---
 
@@ -65,6 +70,16 @@ We employed statistical and machine learning techniques to uncover insights and 
    - Respondents reporting poor mental health "always" were at the highest risk.
 
 ---
+
+## Achievements
+- Raw dataset was converted into a form suitable for analysis using multiple mapping techniques using the Appendix A and C in the YRBSS data guide.
+- Combining and creating new composite features simplify the data analysis and modeling processes.
+- Hypothesis testing and use of statistical tests like T-test, Chi-square test and Cramer’s V help in ensuring statistical rigor and insight generation.
+- The overall suicide risk (21.2%) establishes a good baseline measure for comparison against different data cuts.
+- Creation of "Risk score“ using predicted probabilities is ideal for quantifying and bucketing an individual's suicide risk.
+- Successfully identified key factors influencing suicidal tendencies which are valuable for identifying early indicators of suicidal risk.
+- Uniqueness: Our model identifies respondents' risk profiles, allowing teachers, counselors, and authorities to intervene proactively with high-risk respondents to prevent unfortunate events.
+![image](https://github.com/user-attachments/assets/d1eb3333-cbb0-4d23-a453-deb7be849e64)
 
 ## Practical Applications
 - **Risk Scoring**:  
