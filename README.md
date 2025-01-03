@@ -17,7 +17,7 @@ The Centers for Disease Control and Prevention (CDC) reports a 52.2% increase in
 - **Size**: 17,232 respondents, 109 survey questions  
 - **Target Variable**: Binary response to "During the past 12 months, did you ever seriously consider attempting suicide?"  
 - **Features**: Demographic, behavioral, and emotional indicators.
-## ### Data Mapping from Raw Dataset
+## Data Mapping from Raw Dataset
 
 The raw dataset provided by the YRBSS consisted solely of numeric values representing survey question numbers and encoded answer choices selected by respondents. These numeric representations required mapping to their corresponding survey questions and response options to make the dataset interpretable and suitable for data analysis.
 
@@ -29,7 +29,7 @@ To achieve this, we referred to the **YRBSS Data User Guide**, specifically **Ap
 
 This transformation step was essential to unlock the dataset's full potential, enabling meaningful exploratory data analysis, hypothesis testing, and predictive modeling.
 
-### Data Preprocessing and Exploratory Data Analysis (EDA)
+## Data Preprocessing and Exploratory Data Analysis (EDA)
 1. **Handling Missing Data**:  
    - Columns with >40% missing values were excluded.  
    - KNN-based imputation for continuous features (e.g., height, weight).  
