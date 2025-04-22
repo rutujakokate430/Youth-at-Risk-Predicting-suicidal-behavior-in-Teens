@@ -93,12 +93,12 @@ We employed statistical and machine learning techniques to uncover insights and 
 - Successfully identified key factors influencing suicidal tendencies which are valuable for identifying early indicators of suicidal risk.
 - Uniqueness: Our model identifies respondents' risk profiles, allowing teachers, counselors, and authorities to intervene proactively with high-risk respondents to prevent unfortunate events.
 
-<img width="488" alt="image" src="https://github.com/user-attachments/assets/56681b7d-7653-4bf4-aa02-b2b610f7e8c7" />
-
-
 ## Practical Applications
 - **Risk Scoring**:  
    A calculated "Suicide Risk Score" categorizes individuals into five actionable risk groups (Very High Risk, High Risk, Moderate Risk, Low Risk, No Risk).
+
+  <img width="488" alt="image" src="https://github.com/user-attachments/assets/309bfc4c-b783-425d-ac07-4d6f010b719d" />
+
 
 - **Community Impact**:  
    - Helps educators and counselors prioritize resources.  
